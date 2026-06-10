@@ -8,6 +8,7 @@ import {
   Database,
   FileText,
   GitBranch,
+  GraduationCap,
   Link,
   Mail,
   ShieldCheck,
@@ -137,6 +138,307 @@ const skills = [
     icon: <ShieldCheck />,
     title: "Governance & Risk",
     text: "Cybersecurity risk, IT governance, AI ethics, business continuity, COBIT 2019 and ISO/IEC 38500.",
+  },
+];
+
+const education = [
+  {
+    degree: "Master of Business Information Technology",
+    institution: "RMIT University",
+    period: "2024 – 2026",
+    summary:
+      "Completing a Master of Business Information Technology, building on a business background with deeper data, analytics, governance and digital systems coursework. Cumulative GPA: 3.3.",
+    courses: [
+      {
+        year: "2024",
+        code: "BUSM4610",
+        title: "Business Project Management",
+        mark: "66",
+        grade: "CR",
+      },
+      {
+        year: "2024",
+        code: "ISYS2038",
+        title: "Database Design and Development",
+        mark: "81",
+        grade: "HD",
+      },
+      {
+        year: "2024",
+        code: "ISYS2395",
+        title: "Business Systems Analysis and Design",
+        mark: "76",
+        grade: "DI",
+      },
+      {
+        year: "2024",
+        code: "ISYS3374",
+        title: "Business Analytics",
+        mark: "81",
+        grade: "HD",
+      },
+      {
+        year: "2025",
+        code: "INTE1002",
+        title: "Digital Risk Management and Information Security",
+        mark: null,
+        grade: null,
+      },
+      {
+        year: "2025",
+        code: "INTE2397",
+        title: "Knowledge Management",
+        mark: null,
+        grade: null,
+      },
+      {
+        year: "2025",
+        code: "INTE2412",
+        title: "Governance and Change in Digital Business",
+        mark: null,
+        grade: null,
+      },
+      {
+        year: "2025",
+        code: "ISYS3300",
+        title: "Business Ethics for a Digital Society",
+        mark: null,
+        grade: null,
+      },
+      {
+        year: "2025",
+        code: "INTE1030",
+        title: "Digital Strategy",
+        mark: null,
+        grade: "DI",
+      },
+      {
+        year: "2025",
+        code: "COSC2531",
+        title: "Programming Fundamentals",
+        mark: null,
+        grade: "HD",
+      },
+      {
+        year: "2025",
+        code: "ISYS3303",
+        title: "Business IT Project",
+        mark: null,
+        grade: "CR",
+      },
+      {
+        year: "2025",
+        code: "BUSM4448",
+        title: "Business Research Design",
+        mark: null,
+        grade: null,
+      },
+      {
+        year: "2026",
+        code: "ISYS2396",
+        title: "Intelligent Enterprise Systems",
+        mark: null,
+        grade: null,
+      },
+      {
+        year: "2026",
+        code: "INTE2689",
+        title: "Modern Business Intelligence",
+        mark: null,
+        grade: null,
+      },
+      {
+        year: "2026",
+        code: "ISYS3438",
+        title: "Visual & Communication Insights in Business",
+        mark: null,
+        grade: null,
+      },
+      {
+        year: "2026",
+        code: "ISYS3466",
+        title: "Machine Learning for Business Professionals",
+        mark: null,
+        grade: null,
+      },
+    ],
+  },
+  {
+    degree: "Bachelor of Business (Management)",
+    institution: "RMIT University",
+    period: "2021 – 2024",
+    summary:
+      "Completed 15 July 2024, conferred 18 December 2024. Built a foundation across management, finance, marketing, economics, entrepreneurship and business information systems.",
+    courses: [
+      {
+        year: "2021",
+        code: "ACCT2105",
+        title: "Accounting in Organisations and Society",
+        mark: "64",
+        grade: "CR",
+      },
+      {
+        year: "2021",
+        code: "BUSM4185",
+        title: "Introduction to Management",
+        mark: "76",
+        grade: "DI",
+      },
+      {
+        year: "2021",
+        code: "ECON1193",
+        title: "Business Statistics 1",
+        mark: "64",
+        grade: "CR",
+      },
+      {
+        year: "2021",
+        code: "ECON1194",
+        title: "Prices and Markets",
+        mark: "64",
+        grade: "CR",
+      },
+      {
+        year: "2021",
+        code: "ISYS2109",
+        title: "Business Information Systems",
+        mark: "67",
+        grade: "CR",
+      },
+      {
+        year: "2021",
+        code: "LAW2447",
+        title: "Commercial Law",
+        mark: "64",
+        grade: "CR",
+      },
+      {
+        year: "2021",
+        code: "MKTG1205",
+        title: "Marketing Principles",
+        mark: "57",
+        grade: "PA",
+      },
+      {
+        year: "2022",
+        code: "BAFI3182",
+        title: "Financial Markets and Institutions",
+        mark: "57",
+        grade: "PA",
+      },
+      {
+        year: "2022",
+        code: "BAFI3184",
+        title: "Corporate Finance",
+        mark: "61",
+        grade: "CR",
+      },
+      {
+        year: "2022",
+        code: "BUSM2301",
+        title: "Organisations",
+        mark: "52",
+        grade: "PA",
+      },
+      {
+        year: "2022",
+        code: "BUSM3310",
+        title: "Human Resource Management",
+        mark: "73",
+        grade: "DI",
+      },
+      {
+        year: "2022",
+        code: "BUSM4188",
+        title: "Leadership",
+        mark: "67",
+        grade: "CR",
+      },
+      {
+        year: "2022",
+        code: "BUSM4403",
+        title: "Ethics and Governance",
+        mark: "68",
+        grade: "CR",
+      },
+      {
+        year: "2022",
+        code: "BUSM4561",
+        title: "Work in Global Society",
+        mark: "70",
+        grade: "DI",
+      },
+      {
+        year: "2022",
+        code: "ECON1192",
+        title: "Macroeconomics 1",
+        mark: "68",
+        grade: "CR",
+      },
+      {
+        year: "2023",
+        code: "BAFI1026",
+        title: "Derivatives and Risk Management",
+        mark: "76",
+        grade: "DI",
+      },
+      {
+        year: "2023",
+        code: "BAFI1042",
+        title: "Equity Investment and Portfolio Management",
+        mark: "62",
+        grade: "CR",
+      },
+      {
+        year: "2023",
+        code: "BUSM1222",
+        title: "Global Business",
+        mark: "64",
+        grade: "CR",
+      },
+      {
+        year: "2023",
+        code: "BUSM1311",
+        title: "The Foundations of Entrepreneurship",
+        mark: "65",
+        grade: "CR",
+      },
+      {
+        year: "2023",
+        code: "BUSM3125",
+        title: "Strategy",
+        mark: "54",
+        grade: "PA",
+      },
+      {
+        year: "2023",
+        code: "BUSM4546",
+        title: "Organisational Experience",
+        mark: "62",
+        grade: "CR",
+      },
+      {
+        year: "2023",
+        code: "BUSM4550",
+        title: "Innovation Management",
+        mark: "66",
+        grade: "CR",
+      },
+      {
+        year: "2023",
+        code: "BUSM4599",
+        title: "Business Skills for Start Ups",
+        mark: "84",
+        grade: "HD",
+      },
+      {
+        year: "2024",
+        code: "BUSM4583",
+        title: "Entrepreneurial and Innovation Ecosystems",
+        mark: null,
+        grade: null,
+      },
+    ],
   },
 ];
 
@@ -398,6 +700,46 @@ function Timeline() {
   );
 }
 
+function Education() {
+  return (
+    <section id="education" className="section">
+      <motion.div {...fadeUp}>
+        <p className="kicker">Background</p>
+        <h2>Education</h2>
+      </motion.div>
+      <div className="eduGrid">
+        {education.map((edu, index) => (
+          <motion.div
+            className="eduCard"
+            key={edu.degree}
+            {...fadeUp}
+            transition={{ duration: 0.55, delay: index * 0.05 }}
+          >
+            <div className="eduHeader">
+              <div>
+                <p className="eduMeta">
+                  {edu.institution} · {edu.period}
+                </p>
+                <h3>{edu.degree}</h3>
+              </div>
+              <GraduationCap />
+            </div>
+            <p className="eduSummary">{edu.summary}</p>
+            <div className="eduCourseList">
+              {edu.courses.map((course) => (
+                <div className="eduRow" key={course.code}>
+                  <span className="eduCode">{course.code}</span>
+                  <span className="eduTitle">{course.title}</span>
+                </div>
+              ))}
+            </div>
+          </motion.div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function Contact() {
   return (
     <section id="contact" className="contact">
@@ -442,6 +784,7 @@ function App() {
         <Skills />
         <Projects />
         <Timeline />
+        <Education />
         <Contact />
       </main>
       <footer>

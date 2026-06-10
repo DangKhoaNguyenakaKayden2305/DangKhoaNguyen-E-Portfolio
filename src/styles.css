@@ -626,6 +626,85 @@ a {
   color: var(--muted);
 }
 
+.eduGrid {
+  margin-top: 34px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.eduCard {
+  border: 1px solid var(--line);
+  background: var(--card);
+  border-radius: 28px;
+  padding: 28px;
+  box-shadow: 0 18px 65px rgba(0,0,0,0.16);
+}
+
+.eduHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.eduHeader h3 {
+  margin-top: 6px;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+}
+
+.eduHeader svg {
+  color: var(--violet);
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}
+
+.eduMeta {
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.eduSummary {
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.eduCourseList {
+  margin-top: 20px;
+  max-height: 360px;
+  overflow-y: auto;
+  display: grid;
+  gap: 8px;
+  padding-right: 6px;
+}
+
+.eduRow {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 14px;
+  align-items: center;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.045);
+  border-radius: 14px;
+  padding: 10px 14px;
+  font-size: 0.86rem;
+}
+
+.eduCode {
+  font-weight: 900;
+  color: var(--cream);
+}
+
+.eduTitle {
+  color: var(--muted);
+}
+
 .contact {
   width: min(1180px, calc(100% - 40px));
   margin: 0 auto;
@@ -691,6 +770,10 @@ footer {
   .skillGrid,
   .projectGrid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .eduGrid {
+    grid-template-columns: 1fr;
   }
 
   .sectionHead {
