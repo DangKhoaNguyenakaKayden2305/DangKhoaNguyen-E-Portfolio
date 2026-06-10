@@ -104,7 +104,7 @@ const projects = [
     title: "Data Migration on Databricks",
     label: "Data Engineering",
     icon: <Database />,
-    image: null, // e.g. "/images/databricks-migration.png"
+    image: "/images/databricks-migration.png",
     desc: "A data migration project moving legacy data systems onto Databricks, covering pipeline redesign, data quality validation and lakehouse architecture for scalable analytics.",
     stack: [
       "Databricks",
