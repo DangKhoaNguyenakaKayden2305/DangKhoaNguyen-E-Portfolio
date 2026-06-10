@@ -1,4 +1,4 @@
-# Jillyn Phan React Portfolio
+# Dang Khoa Nguyen React Portfolio
 
 A React + Vite portfolio landing page for a Business Analyst / Data Analyst / AI Data Product profile.
 
